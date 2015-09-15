@@ -17,7 +17,7 @@ case "$1" in
 					git clone git@github.com:Duckbox-Developers/$f $f
 				else
 					# usr
-					git clone git://github.com/Duckbox-Developers/$f $f
+					git clone git://github.com/herpoi/$f $f
 				fi
 				echo "git clone" $f
 			fi
