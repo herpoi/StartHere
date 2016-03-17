@@ -109,7 +109,7 @@ PACKAGES="\
 	${UBUNTU:+help2man} \
 	${UBUNTU:+libgpgme11-dev} \
 	${UBUNTU:+libcurl4-openssl-dev} \
-	${UBUNTU:+liblzo2-dev} \
+	${UBUNTU:+liblzo2-dev} 									${GENTOO:+lzo:2} \
 	${UBUNTU:+libsdl-image1.2} \
 	${UBUNTU:+libsdl-image1.2-dev} \
 	${UBUNTU:+cmake} 									${GENTOO:+cmake} \
