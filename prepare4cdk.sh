@@ -85,7 +85,7 @@ PACKAGES="\
 	dialog \
 	wget \
 	\
-	${UBUNTU:+libffi-dev}		${SUSE:+libffi-dev}	     ${FEDORA:+libffi-dev}	${UBUNTU:+libffi}
+	${UBUNTU:+libffi-dev}		${SUSE:+libffi-dev}	     ${FEDORA:+libffi-dev}	${GENTOO:+libffi}
 	${UBUNTU:+rpm}                                               ${FEDORA:+rpm-build} 	${GENTOO:+rpm} \
 	${UBUNTU:+lsb-release}          ${SUSE:+lsb-release}         ${FEDORA:+redhat-lsb} 	${GENTOO:+lsb-release} \
 	${UBUNTU:+git-core}             ${SUSE:+git-core}            ${FEDORA:+git} 		${GENTOO:+git} \
